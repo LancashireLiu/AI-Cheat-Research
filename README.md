@@ -1,27 +1,6 @@
-# Codebase for "Time-series Generative Adversarial Networks (TimeGAN)"
+# Codebase for "Mouse Trajectory-based AI Cheating Detection and Prebention"
 
-Authors: Jinsung Yoon, Daniel Jarrett, Mihaela van der Schaar
 
-Reference: Jinsung Yoon, Daniel Jarrett, Mihaela van der Schaar, 
-"Time-series Generative Adversarial Networks," 
-Neural Information Processing Systems (NeurIPS), 2019.
- 
-Paper Link: https://papers.nips.cc/paper/8789-time-series-generative-adversarial-networks
-
-Contact: jsyoon0823@gmail.com
-
-This directory contains implementations of TimeGAN framework for synthetic time-series data generation
-using one synthetic dataset and two real-world datasets.
-
--   Sine data: Synthetic
--   Stock data: https://finance.yahoo.com/quote/GOOG/history?p=GOOG
--   Energy data: http://archive.ics.uci.edu/ml/datasets/Appliances+energy+prediction
-
-To run the pipeline for training and evaluation on TimeGAN framwork, simply run 
-python3 -m main_timegan.py or see jupyter-notebook tutorial of TimeGAN in tutorial_timegan.ipynb.
-
-Note that any model architecture can be used as the generator and 
-discriminator model such as RNNs or Transformers. 
 
 ### Code explanation
 
